@@ -4,7 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    font-size: 14px; 
+    font-size: 16px; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -49,12 +52,13 @@ p {
 ul {
     margin: 20px;
     padding-left: 40px;
+    flex-grow: 1;
 }
 
 footer {
     background-color: #5479f1; 
     color: white;
-    padding: 5px; 
+    padding: 10px; 
     text-align: center; 
     margin-top: 5px; 
 }
