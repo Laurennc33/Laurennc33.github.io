@@ -1,47 +1,41 @@
-# Create the content for the question in a .txt file
-question_content = """\
-Assignment: Personal Website Using GitHub Pages
+Website Hyperlink: https://laurennc33.github.io/
 
-In this assignment, you will create a personal website using GitHub Pages. 
-The website will introduce you or showcase something you’re passionate about—whether it's a hobby, academic interest, or a project. 
-This assignment will help you become familiar with GitHub Pages, HTML, CSS, and how to deploy your website online.
+Styling & Customizations:
+1. Font Family: The body text uses the 'Calibri' font for a clean and modern look.
 
-Requirements:
+2. Background Color: The background color of the page is white, which provides a soft contrast against the text.
 
-+ Website Structure (20 points): Your website must consist of at least two pages. 
-  You are free to structure the site based on the content you wish to highlight, but the following sections are required:
-    + Home Page (index.html) (5 points):
-        + A clear heading (e.g., "Welcome to My Website" or "About Me").
-        + A short introduction about yourself or the topic you are interested in. (At least 200 words)
-        + At least one image (e.g., your photo or something that represents your interests).
-    + A second page (or more) that expands on the details. This could include (5 points):
-        + Descriptive text explaining the content (At least 200 words)
-        + At least one image (e.g., your photo or something that represents your interests).
-        + A list (ordered or unordered) about the topic.
-        + A heading smaller than the one on the Home Page.
-    + Contact Information: Include a contact section (which could be on any of your pages) 
-      with links to your email or social media accounts. (5 points)
-    + Navigation: Your site should have clear navigation between pages, either via a header menu or links, 
-      so visitors can move seamlessly between the Home and Additional Page(s). (5 points)
+3. Font Size: The base font size is set to 14px for better readability.
 
-+ Styling & Customization (15 points): Style your website using custom CSS. You must implement three different customizations beyond basic styling. 
-  These could include:
-    + Custom fonts or typography.
-    + Color scheme changes for backgrounds, text, or links.
-    + Custom margins, padding, or layout adjustments.
+4. Header Styling: 
+   - The header has a black background color for a strong visual impact.
+   - Padding of 16px is applied to create space around the header text.
+   - The text is centered within the header.
 
-+ Deployment (5 points): Once your website is complete, ensure it is published on GitHub Pages. 
-  Double-check that all links and pages work properly before submitting.
+5. Navigation Links: 
+   - Links are displayed inline for horizontal navigation.
+   - The text decoration is removed to create a cleaner look.
+   - The color is set to white, and the font size is increased to 16px for emphasis.
 
-Submission:
-Also, please submit a Word document or a .txt file which contains:
-+ The hyperlink of your website.
-+ Describe all the Styling & Customizations you have done in the Website.
-"""
+6. Heading Styles: 
+   - Both h1 and h2 headings are centered and black to maintain consistency with the header.
 
-# Save the question content as a .txt file
-question_file_path = "/mnt/data/website_assignment_question.txt"
-with open(question_file_path, "w") as question_file:
-    question_file.write(question_content)
+7. Paragraphs: 
+   - Paragraphs have a margin of 20px for spacing and a line-height of 1.6 for improved readability.
+   - Text is justified for a neat appearance.
 
-question_file_path
+8. List: 
+   - Lists have a margin of 20px and padding of 40px on the left for better visibility.
+
+9. Footer Styling: 
+   - The footer background color is a light blue shade (#5479f1) for a pleasant contrast with white text.
+   - Padding of 5px is applied to give space around the footer text.
+   - The footer is centered, with a margin-top of 5px to separate it from other elements.
+
+10. Footer Links: 
+    - Footer links are styled to be light blue and change to underline on hover for better user interaction.
+
+11. Image Styling: 
+    - Images are centered and have a maximum width of 300px to ensure they fit well within the layout.
+    - They maintain their aspect ratio with auto height adjustments.
+
