@@ -1,10 +1,10 @@
 /* style.css */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    font-size: 16px; /* Updated font size to 16px */
+    font-size: 12px; /* Updated font size to 16px */
 }
 
 header {
@@ -31,8 +31,7 @@ header {
 
 h1 {
     text-align: center;
-    color: #ff0000; /* Changed color to red */
-    margin: 0; /* Remove margin */
+    color: #1e1e1e; 
 }
 
 h2 {
@@ -52,11 +51,11 @@ ul {
 }
 
 footer {
-    background-color: #5479f1; /* Footer background color */
+    background-color: #000000; 
     color: white;
-    padding: 5px; /* Reduced padding for the footer */
+    padding: 5px; 
     text-align: center; 
-    margin-top: 10px; /* Space above footer */
+    margin-top: 5px; 
 }
 
 footer a {
@@ -68,10 +67,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Center the image */
+
 img {
-    display: block;          /* Makes the image a block element */
-    margin: 20px auto;      /* Centers the image */
-    max-width: 300px;       /* Sets maximum width for the image */
-    height: auto;           /* Maintains aspect ratio */
+    display: block;          
+    margin: 20px auto;      
+    max-width: 300px;       
+    height: auto;           
 }
