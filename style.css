@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    font-size: 12px; /* Updated font size to 16px */
+    font-size: 16px; 
 }
 
 header {
@@ -27,7 +27,7 @@ header {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16px; 
 }
 
 h1 {
@@ -67,7 +67,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
 
 img {
     display: block;          
